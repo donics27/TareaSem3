@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "../../ejemploSass/src/components/header.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}

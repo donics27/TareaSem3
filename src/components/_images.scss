@@ -1,0 +1,22 @@
+@mixin setDimension ($ancho, $alto, $sombra ) {
+ max-width:$ancho ;
+ max-height:$alto ;
+ box-shadow: $sombra;
+ overflow: hidden;
+}
+
+.foto {
+   @include setDimension(80,100%, 2px 2px 6px 10px rgba(248, 122, 18, 0.945) );
+   
+   &-big{ 
+    @include   setDimension(80%,100%, 2px 2px 6px 5px blue );
+ }
+
+ &-horizontal{ 
+    @include   setDimension(80%,50%, 2px 2px 6px 5px blue );
+    
+}
+
+   }
+
+   
